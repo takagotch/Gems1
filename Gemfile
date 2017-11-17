@@ -97,7 +97,7 @@ source 'https://rubygems.org'
   gem 'yaml',          'x.x.x'
   gem 'zlib',          'x.x.x'
   gem '',              'x.x.x'
-  gem '',              'x.x.x'
+  gem 'blockchain',    'x.x.x'
   gem '',              'x.x.x'
   gem '',              'x.x.x'
 
