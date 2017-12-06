@@ -1,0 +1,26 @@
+source 'http://rubygems.org'
+
+gem 'rails', '5.0.2'
+#gem 'rails', :git => 'git://github.com/rails/rails.git'
+
+gem 'sqlite3'
+group :production do
+  gem 'mysql2'
+end
+
+group :assets do
+  gem 'sass-rails', " ~> 3.1.0"
+  gem 'coffee-rails', " ~> 3.1.0"
+  gem 'uglifier'
+end
+
+gem 'jquery-rails'
+
+gem 'capistrano'
+
+group :test do
+  gem 'turn', :require => false
+end
+
+gem 'will_paginate', ' ~> 3.0' #'kaminari'
+
